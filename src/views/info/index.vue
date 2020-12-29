@@ -1,13 +1,15 @@
 <template>
   <div class="home">
-      home
-      <h1>标题</h1>
+      <div>个人信息</div>
       <svgIcon icon-class="search" className="searchSvg"></svgIcon>
   </div>
 </template>
 
 <script>
 
+import Vue from 'vue'
+import { Button } from 'vant';
+Vue.component(Button.name, Button);
 export default {}
 
 </script>
